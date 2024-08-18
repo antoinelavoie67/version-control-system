@@ -1,0 +1,40 @@
+I prelude1.inc
+> branch underdivs
+<<<
+> checkout underdivs
+<<<
++ cs61a.txt cs61a.txt
+> add cs61a.txt
+<<<
++ cs61b.txt cs61b.txt
+> add cs61b.txt
+<<<
++ cs61c.txt cs61c.txt
+> add cs61c.txt
+<<<
+> commit "adding all the underdivs"
+<<<
+= cs61a.txt cs61a.txt
+= cs61b.txt cs61b.txt
+= cs61c.txt cs61c.txt
+> checkout master
+<<<
+> branch upperdivs
+<<<
++ cs168.txt cs168.txt
+> add cs168.txt
+<<<
++ cs188.txt cs188.txt
+> add cs188.txt
+<<<
++ cs61c.txt fakecs61c.txt
+> add cs61c.txt
+<<<
+> commit "adding all upperdivs"
+<<<
+= cs168.txt cs168.txt
+= cs188.txt cs188.txt
+= cs61c.txt fakecs61c.txt
+> merge underdivs
+Encountered a merge conflict.
+<<<

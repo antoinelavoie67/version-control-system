@@ -1,0 +1,30 @@
+I prelude1.inc
+> branch ant
+<<<
++ antoines.txt antoines.txt
+> add antoines.txt
+<<<
+> commit "added antoines"
+<<<
++ b.txt b.txt
+> add b.txt
+<<<
+> commit "added b"
+<<<
+> checkout tony
+No such branch exists.
+<<<
+> checkout ant
+<<<
+> add liltony.txt
+File does not exist.
+<<<
++ antoinesnickname.txt antoinesnickname.txt
+> add antoinesnickname.txt
+<<<
+> commit "added antoinesnickname"
+<<<
+> checkout master
+<<<
+= b.txt b.txt
+= antoines.txt antoines.txt

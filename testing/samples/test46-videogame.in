@@ -1,0 +1,33 @@
+I prelude1.inc
+> commit "this should fail"
+No changes added to the commit.
+<<<
++ a.txt a.txt
+> add a.txt
+<<<
+> commit "added a.txt"
+<<<
+> commit "added a.txt"
+No changes added to the commit.
+<<<
+= a.txt a.txt
+> branch fps
+<<<
++ valorant.txt valorant.txt
+> add valorant.txt
+<<<
++ csgo.txt csgo.txt
+> add csgo.txt
+<<<
+> commit "adding fps games"
+<<<
+= csgo.txt csgo.txt
+= valorant.txt valorant.txt
+> rm valorant.txt
+<<<
+> commit "removing valorant because its worse than csgo"
+<<<
+* valorant.txt
+= csgo.txt csgo.txt
+
+
